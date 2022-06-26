@@ -1,0 +1,11 @@
+.chartContainer{
+  margin: 20px;
+}
+
+.chartContainer * {
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+    
+}

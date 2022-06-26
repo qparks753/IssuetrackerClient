@@ -1,0 +1,74 @@
+
+.tableContainer{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    /* border: 1px black solid; */
+    width: 100%;     
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+
+.ticketHeader span{
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    font-weight: 400;
+    color: royalblue;
+
+}
+
+.viewButton {
+    margin:5px;
+    text-decoration: none;
+}
+
+.viewButton:hover{
+    border-bottom: 1px black solid;
+}
+
+.deleteButton{
+margin: 5px;
+
+}
+
+
+.addProject{
+    border:none;
+    background-color: royalblue;
+    border:1px lightgrey;
+    height: 80%;
+}
+
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.deleteBtn{
+    border-style: none;
+    color: red ;
+  
+}
+
+.deleteBtn:hover{
+    border-bottom: 1px black solid;
+}
+
+.addTicketbtn{
+    text-decoration: none;
+}
+
+.addTicketbtn:hover{
+    text-decoration: underline;
+}
