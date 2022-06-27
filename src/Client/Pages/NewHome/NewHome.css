@@ -45,7 +45,14 @@ justify-content: center;
         transform:translate(-10px);
       
     }
+
+    .homeBodyDiv{
+        margin-top: 2rem;
+    }
+
 }
+
+
 
  
 
